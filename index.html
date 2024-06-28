@@ -3,44 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-    <link rel="stylesheet" href="css/calculator.css">
+    <link rel="stylesheet" href="calculator.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-    <title>Online Calculator</title>
+    <title>Online Calculator Page</title>
 </head>
 <body>
     <div class="calculator">
-        <div class="display" id="display">0</div>
-        <div class="buttons">
-            <div class="row">
-                <button>9</button>
-                <button>8</button>
-                <button>7</button>
-                <button>C</button>
+        <b class="calculator-font">Calculator</b><br>
+        <div class="standard-history">
+            <b class="standard"><i class="bi bi-list"></i>&nbsp;&nbsp;&nbsp;Standard</b>
+            <button class="history-button">H</button>
+        </div>
+        <div class="calculator-inside-text">0&nbsp;</div>
+        <div class="button-top">
+            <button>MC</button>
+            <button>MR</button>
+            <button>M+</button>
+            <button>M-</button>
+            <button>MS</button>
+            <button>M</button>
+        </div>
+        <div class="calculator-buttons">
+            <div class="grid-buttons">
+                <button class="different-background">C</button>
+                <button class="different-background">C</button>
+                <button class="different-background">C</button>
+                <button class="different-background">C</button>
             </div>
-            <div class="row">
-                <button>6</button>
-                <button>5</button>
-                <button>4</button>
-                <button>=</button>
+            <div class="grid-buttons">
+                <button class="different-background">C</button>
+                <button class="different-background">C</button>
+                <button class="different-background"><i class="bi bi-backspace-fill"></i></button>
+                <button class="different-background">AA</button>
             </div>
-            <div class="row">
-                <button>3</button>
-                <button>2</button>
-                <button>1</button>
-                <button>+</button>
+            <div class="grid-buttons">
+                <button class="white">C</button>
+                <button class="white">C</button>
+                <button class="white">C</button>
+                <button class="different-background"><i class="bi bi-x"></i></button>
             </div>
-            <div class="row">
-                <button>-</button>
-                <button>/</button>
-                <button>*</button>
-                <button> . </button>
+            <div class="grid-buttons">
+                <button class="white">C</button>
+                <button class="white">C</button>
+                <button class="white">C</button>
+                <button class="different-background"><i class="bi bi-dash"></i></button>
+            </div>
+            <div class="grid-buttons">
+                <button class="white">C</button>
+                <button class="white">C</button>
+                <button class="white">C</button>
+                <button class="different-background"><i class="bi bi-plus"></i></button>
+            </div>
+            <div class="grid-buttons">
+                <button class="different-background">C</button>
+                <button class="white">D</button>
+                <button class="different-background">C</button>
+                <button class="different-background">C</button>
             </div>
         </div>
-      </div>
-      <script src="js/calculator.js"></script>    
+    </div>
 </body>
 </html>
