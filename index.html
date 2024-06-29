@@ -13,6 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
         <script src="https://kit.fontawesome.com/d245d62366.js" crossorigin="anonymous"></script>
+        <script src="calculator.js"></script>
     <title>Online Calculator Page</title>
 </head>
 <body>
@@ -29,10 +30,31 @@
             <button class="standard"><i class="fa-solid fa-bars"></i>&nbsp;&nbsp;<b class="standard-text">Standard</b></button>
             <button class="history-button"><i class="fa-solid fa-rotate-left"></i></button>
         </div>
+        <div class="drawer" id="drawer_id">
+            <a href="javascript:void(0)" class="close_button">&times;</a>
+            <b>Calculators</b>
+            <br>
+            <a href="#"><i class="fa-solid fa-calculator"></i>&nbsp;&nbsp;&nbsp;&nbsp;Standard</a>
+            <a href="#"><i class="fa-solid fa-flask-vial"></i>&nbsp;&nbsp;&nbsp;&nbsp;Scientific</a>
+            <a href="#"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;&nbsp;&nbsp;Programmer</a>
+            <a href="#"><i class="fa-regular fa-calendar-days"></i>&nbsp;&nbsp;&nbsp;&nbsp;Date Calculation</a>
+            <br>
+            <b>Converter</b>
+            <br>
+            <a href="#"><i class="fa-solid fa-dollar-sign"></i>&nbsp;&nbsp;&nbsp;&nbsp;Currency</a>
+            <a href="#"><i class="fa-solid fa-box"></i>&nbsp;&nbsp;&nbsp;&nbsp;Volume</a>
+            <a href="#"><i class="fa-solid fa-ruler"></i>&nbsp;&nbsp;&nbsp;&nbsp;Length</a>
+            <a href="#"><i class="fa-solid fa-weight-scale"></i>&nbsp;&nbsp;&nbsp;&nbsp;Weight and Mass</a>
+            <a href="#"><i class="fa-solid fa-temperature-low"></i>&nbsp;&nbsp;&nbsp;&nbsp;Temperature</a>
+            <a href="#"><i class="fa-solid fa-bolt"></i>&nbsp;&nbsp;&nbsp;&nbsp;Energy</a>
+            <a href="#"><i class="fa-solid fa-chart-area"></i>&nbsp;&nbsp;&nbsp;&nbsp;Area</a>
+            <a href="#"><i class="fa-solid fa-truck-fast"></i>&nbsp;&nbsp;&nbsp;&nbsp;Speed</a>
+            <a href="#"><i class="fa-regular fa-clock"></i>&nbsp;&nbsp;&nbsp;&nbsp;Time</a>
+        </div>
         <div class="calculator-inside-text">0&nbsp;</div>
         <div class="button-top">
             <button>MC</button>
-            <button>MR</button>
+            <button>MR</button> 
             <button>M+</button>
             <button>M-</button>
             <button>MS</button>
